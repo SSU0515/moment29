@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "star";
+  src: url("./font/온글잎\ 은별.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "star";
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.clock {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock h1 {
+  font-size: 45px;
+}
+.clock h1 span {
+  font-size: 20px;
+  color: #ff3700;
+}
+
+.clock h2 {
+  font-size: 25px;
+}
+
+#result {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #150b55;
+  padding: 20px;
+  background: url("https://img.freepik.com/free-vector/hand-drawn-blue-lined-paper-background_23-2151090711.jpg")
+    center/cover no-repeat;
+  margin-bottom: 20px;
+}
+
+.quote-title {
+  font-size: 24px;
+  color: #ff3700;
+}
+
+.quote {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.quoteBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(255, 55, 0, 0.5);
+  font-weight: 600;
+  font-family: "star";
+}
+
+.weather-city {
+  width: 510px;
+  height: 300px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.weather-city span {
+  margin: 40px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ff3700;
+}
+.current-weather {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info {
+  width: 250px;
+  height: 250px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.temp {
+  font: bold 2rem/1 "star";
+}
+.city-box {
+  width: 250px;
+  height: 250px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+}
+.city {
+  font-size: 24px;
+}
+
+.noti {
+  text-align: center;
+  color: crimson;
+  font: bold 1.5rem/1 "arial";
+  margin-bottom: 20px;
+  display: none;
+}
