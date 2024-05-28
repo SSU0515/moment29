@@ -47,13 +47,10 @@ function updateClock() {
   ).innerHTML = `<h1>${currentDate}</h1> <h2>${currentTime}</h2>`;
 }
 
-// Initial call to display the clock immediately
 updateClock();
 
-// Update the clock every second
 setInterval(updateClock, 1000);
 
-// import { API_KEY } from "./env.js";
 const getCurrentWeather = (latitude, longitude) => {
   const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=2a69d5ae32b5f5c4fac10c49589b9dd0&units=metric&lang=kr`;
 
