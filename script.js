@@ -1,4 +1,4 @@
-const quoteURL = "http://dummyjson.com/quotes";
+const quoteURL = "https://dummyjson.com/quotes";
 const quoteBtn = document.querySelector(".quoteBtn");
 const clockPlace = document.querySelector(".container h1");
 
