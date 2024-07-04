@@ -19,6 +19,7 @@ a {
 }
 
 body {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +38,7 @@ body {
 }
 
 .clock {
-  margin-bottom: 30px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +134,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   background: rgba(255, 255, 255, 0.6);
 }
 .temp {
